@@ -129,14 +129,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\assets\css\classmates.css" />
-    <Content Include="Content\assets\css\contact.css" />
+    <Content Include="Content\assets\css\custom.css" />
     <Content Include="Content\assets\css\fontawesome-all.min.css" />
     <Content Include="Content\assets\css\images\original.png" />
     <Content Include="Content\assets\css\images\overlay.png" />
     <Content Include="Content\assets\css\main.css" />
-    <Content Include="Content\assets\css\portfolio.css" />
-    <Content Include="Content\assets\css\resume.css" />
     <Content Include="Content\assets\css\superhero.css" />
     <Content Include="Content\assets\css\superhero.min.css" />
     <Content Include="Content\assets\js\breakpoints.min.js" />
