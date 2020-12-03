@@ -1,0 +1,103 @@
+﻿<!DOCTYPE HTML>
+<html lang="en-us">
+<head>
+    <title>Home | David See</title>
+    <meta name="autor" content="David See" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+    <meta name="keywords" content="web, developer, development, HTML, CSS, Javascript, Portfolio," />
+    <meta name="description" content="This is my personal portfolio website.  It contains all the current projects that I am working on.">
+
+    <!-- External Stylesheet-->
+
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+    <link href="~/Content/images/Yosemite.jpg" rel="stylesheet" />
+
+
+    <!--  HTML5 Shiv-->
+    <!--[if lt IE 9]<script src="assets/js/html5shiv.js"></script><![endlf]-->
+    <!--FAVICON-->
+    <link rel="apple-touch-icon" sizes="180x180" href="~/Content/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="~/Content/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="~/Content/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="~/Content/images/favicon/site.webmanifest">
+
+</head>
+<body class="landing is-preload">
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <header id="header" class="alt">
+            <h1><a href="index.html">David See</a>Full Stack Web Developer</h1>
+            <nav id="nav">
+                <ul>
+                    <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                    <li>@Html.ActionLink("Resume", "Resume", "Home")</li>
+                    <li>@Html.ActionLink("Portfolio", "Portfolio", "Home")</li>
+                    <li>@Html.ActionLink("Classmates", "Classmates", "Home")</li>
+                    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+                </ul>
+            </nav>
+        </header>
+
+        @RenderBody()
+
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="icons">
+                <li>
+                    <a href="tel:01706-580-8545" class="label">
+                        <i class="fa fa-phone fa-2x"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="mailto:admin@davidsee.net" class="label" target="_blank">
+                        <i class="fa fa-envelope fa-2x"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="http://www.linkedin/in/davidsee" class="label" target="_blank">
+                        <i class="fa fa-lock fa-2x"></i>
+                    </a>
+                </li>
+
+            </ul>
+            <ul class="copyright">
+                <li>&copy; 2020 David See</li>
+                <li>Design by HTML5 UP | Heavily Converted by David See</li>
+            </ul>
+        </footer>
+
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @RenderSection("scripts", required: false)
+
+    <!-- Scripts -->
+    <script src="~/Content/assets/js/jquery.min.js"></script>
+    <script src="~/Content/assets/js/jquery.dropotron.min.js"></script>
+    <script src="~/Content/assets/js/jquery.scrollex.min.js"></script>
+    <script src="~/Content/assets/js/browser.min.js"></script>
+    <script src="~/Content/assets/js/breakpoints.min.js"></script>
+    <script src="~/Content/assets/js/util.js"></script>
+    <script src="~/Content/assets/js/main.js"></script>
+
+    <script>
+        $(function () {
+            $('.navbar-nav > li').each(function () {
+                if ($(this).find('a').attr('href') == window.location.pathname) {
+                    $(this).addClass('active')
+                }
+            });
+        });
+    </script>
+
+
+</body>
+</html>
+
+

@@ -1,0 +1,40 @@
+﻿#main {
+    border-radius: 10px;
+    background-color: white;
+}
+#current {
+    text-align:center;
+    font-weight:bold;
+    font-size: 2em;
+
+}
+ p#intro {
+    color:red;
+    text-align:center;
+    font-size:large;
+}
+.row {
+    padding: 5em;
+}
+.card {
+    margin: 0;
+    border: 2px solid black;
+    padding: 5px;
+    text-align: center;
+    background-color:#005;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FA5;
+}
+
+.card img {
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    height:170px;
+}

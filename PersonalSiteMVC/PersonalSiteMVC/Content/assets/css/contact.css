@@ -1,0 +1,149 @@
+﻿html {
+    background-color: lightgrey;
+    padding: 0 1em;
+}
+
+body {
+    background-color: #fff;
+    margin: 1em auto;
+    max-width: 80em;
+}
+
+p, ul {
+    font-family: 'Sanchez', serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+:root {
+    --yellowish: #eeb14f;
+    --dark-purple: #263547;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom:0;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: var(--dark-purple);
+    height: 150px;
+}
+
+.logo {
+    background: url('./rss.png') no-repeat;
+    width: 32px;
+    height: 32px;
+    margin: 20px;
+}
+
+.title-holder {
+    align-items: center;
+}
+
+.nama {
+    color: var(--yellowish);
+    font-family: 'Montserrat', serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.designare {
+    color: #ffffff;
+    font-family: 'Sanchez', serif;
+    text-transform: uppercase;
+}
+
+.content-body {
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper {
+    margin: 50px;
+}
+
+.section-left {
+    flex: 1;
+    background-color: var(--yellowish);
+}
+
+    .section-left ul {
+        list-style: none;
+        margin-left: -40px;
+        text-transform: capitalize;
+        font-size: 12px;
+    }
+
+h2 {
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: bold;
+    font-family: 'Montserrat', serif;
+    letter-spacing: 2px;
+}
+
+h3 {
+    text-transform: uppercase;
+    font-size: 0.7em;
+    font-family: 'Sanchez', serif;
+    font-weight: normal;
+    letter-spacing: 2px;
+}
+
+h4 {
+    font-family: 'Sanchez', serif;
+    font-weight: normal;
+    font-size: 0.8em;
+    margin-top: -10px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+
+.section-right {
+    flex: 2;
+}
+
+    .section-right .wrapper {
+        margin-left: 50px;
+    }
+
+    .section-right ul {
+        margin-left: -20px;
+    }
+
+    .section-right h2 {
+        color: var(--yellowish);
+        font-weight: bold;
+    }
+
+.gpa {
+    margin-top: -15px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--dark-purple);
+    height: 100px;
+}
+
+.ps {
+    color: #ffffff;
+}
+
+.lists{
+    color:white;
+    font-weight:bold;
+}

@@ -1,0 +1,38 @@
+﻿#main {
+    border-radius: 10px;
+    background-color: white;
+    background-image:url(/assets/css/images/original.png);
+    background-repeat:no-repeat;
+    background-position:center;
+    background-size: 50em;
+
+}
+
+.row {
+    padding: 5em;
+}
+
+.card {
+    margin: 0,0,0,0;
+    border: 0;
+    padding: 5px;
+    text-align: center;
+}
+
+.card-title {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card img {
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 290px;
+}
+#footer {
+    background-color: #444444;
+    max-height: 2em;
+}
