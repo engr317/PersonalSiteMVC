@@ -1,8 +1,8 @@
 ﻿/* Classmates */
 #classmates main {
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: white;
-    background-image: url(/assets/css/images/original.png);
+    background-image: url(~/Content/assets/css/images/original.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 50em;
@@ -33,96 +33,13 @@
     height: 290px;
 }
 
-/* Contact */
-#contact {
-}
-
-    #contact html {
-        background-color: lightgrey;
-        padding: 0 1em;
-    }
-
-    #contact body {
-        background-color: #fff;
-        margin: 1em auto;
-        max-width: 80em;
-    }
+/* Contact */     
 
     #contact p, ul {
         font-family: 'Sanchez', serif;
         font-size: 12px;
         letter-spacing: 1px;
-    }
-
-    #contact a {
-        text-decoration: none;
-        color: inherit;
-    }
-
-    #contact :root {
-        --yellowish: #eeb14f;
-        --dark-purple: #263547;
-    }
-
-    #contact .container {
-        display: flex;
-        flex-direction: column;
-        padding-bottom: 0;
-    }
-
-    #contact .header {
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        background-color: var(--dark-purple);
-        height: 150px;
-    }
-
-    #contact .logo {
-        background: url('./rss.png') no-repeat;
-        width: 32px;
-        height: 32px;
-        margin: 20px;
-    }
-
-    #contact .title-holder {
-        align-items: center;
-    }
-
-    #contact .nama {
-        color: var(--yellowish);
-        font-family: 'Montserrat', serif;
-        text-transform: uppercase;
-        font-size: 36px;
-        font-weight: bold;
-    }
-
-    #contact .designare {
-        color: #ffffff;
-        font-family: 'Sanchez', serif;
-        text-transform: uppercase;
-    }
-
-    #contact .content-body {
-        display: flex;
-        flex-direction: row;
-    }
-
-    #contact .wrapper {
-        margin: 50px;
-    }
-
-    #contact .section-left {
-        flex: 1;
-        background-color: var(--yellowish);
-    }
-
-        #contact .section-left ul {
-            list-style: none;
-            margin-left: -40px;
-            text-transform: capitalize;
-            font-size: 12px;
-        }
+    }         
 
     #contact h2 {
         text-transform: uppercase;
@@ -130,62 +47,8 @@
         font-weight: bold;
         font-family: 'Montserrat', serif;
         letter-spacing: 2px;
-    }
-
-    #contact h3 {
-        text-transform: uppercase;
-        font-size: 0.7em;
-        font-family: 'Sanchez', serif;
-        font-weight: normal;
-        letter-spacing: 2px;
-    }
-
-    #contact h4 {
-        font-family: 'Sanchez', serif;
-        font-weight: normal;
-        font-size: 0.8em;
-        margin-top: -10px;
-        font-style: italic;
-        letter-spacing: 1px;
-    }
-
-    #contact .section-right {
-        flex: 2;
-    }
-
-        #contact .section-right .wrapper {
-            margin-left: 50px;
-        }
-
-        #contact .section-right ul {
-            margin-left: -20px;
-        }
-
-        #contact .section-right h2 {
-            color: var(--yellowish);
-            font-weight: bold;
-        }
-
-    #contact .gpa {
-        margin-top: -15px;
-    }
-
-    #contact .footer {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background-color: var(--dark-purple);
-        height: 100px;
-    }
-
-    #contact .ps {
-        color: #ffffff;
-    }
-
-    #contact .lists {
-        color: white;
-        font-weight: bold;
-    }
+    }     
+      
 
 /* Portfolio */
 #portfolio main {
@@ -193,10 +56,11 @@
     background-color: white;
 }
 
-#portfolio current {
+#portfolio h1 {
     text-align: center;
     font-weight: bold;
     font-size: 2em;
+    
 }
 
 #portfolio intro {
@@ -204,17 +68,18 @@
     text-align: center;
     font-size: large;
 }
-
-#portfolio .row {
-    padding: 5em;
+#portfolio .row{
+    padding:2px;
 }
 
+
 #portfolio .card {
-    margin: 0;
+    margin: 1px;
     border: 2px solid black;
     padding: 5px;
     text-align: center;
     background-color: #005;
+    
 }
 
 #portfolio .card-title {
@@ -236,7 +101,7 @@
 
 #resume * {
     margin: 0;
-    padding: 0;
+    padding: 8px;
 }
 
 #resume body {
@@ -257,6 +122,7 @@
 #resume page-wrap {
     width: 800px;
     margin: 40px auto 60px;
+    
 }
 
 #resume pic {
@@ -266,11 +132,12 @@
 
 #resume h1.fn {
     margin: 0 0 16px 0;
-    padding: 0 0 16px 0;
+    padding: 5px 0 16px 20px;
     font-size: 42px;
     font-weight: bold;
     letter-spacing: -2px;
     border-bottom: 1px solid #999;
+    text-align:left;
 }
 
 #resume h2 {
@@ -324,7 +191,7 @@
     font-style: italic;
     font-weight: bold;
     font-size: 18px;
-    text-align: right;
+    text-align: center;
     padding: 0 26px 0 0;
     width: 150px;
     float: left;
@@ -334,7 +201,8 @@
 
 #resume dd {
     width: 600px;
-    float: right;
+    float:right;
+    text-align:left;
 }
 
     #resume dd.clear {

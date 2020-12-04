@@ -1,7 +1,7 @@
 ﻿<!DOCTYPE HTML>
 <html lang="en-us">
 <head>
-    <title>Home | David See</title>
+    <title>@ViewBag.Title</title>
     <meta name="autor" content="David See" />
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -42,6 +42,15 @@
                 </ul>
             </nav>
         </header>
+
+        <section id="banner" style="background-image: url(../../Content/images/Yosemite.jpg); background-repeat: no-repeat;
+    background-size:cover; background-position: center center; background-attachment:fixed;">
+            <h2 id="name">David See</h2>
+            <p>Full Stack Web Developer</p>
+            <ul class="actions special">                
+                <li><a href="https://www.linkedin.com/in/david-see/" class="button">Connect!</a></li>
+            </ul>
+        </section>
 
         @RenderBody()
 

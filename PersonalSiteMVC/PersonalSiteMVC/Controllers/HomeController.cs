@@ -58,7 +58,7 @@ namespace PersonalSiteMVC.Controllers
 
             //1) Create a string for the message
             string emailBody = $"You have recieved an email from {cvm.Name} with a subject of {cvm.Subject}.  Please respond to {cvm.Email} with " +
-                $"your response to the following message: <br/><br/> {cvm.Message}";
+                $"your email to the following message: <br/><br/> {cvm.Message}";
 
             //2) Create the Mail Message Obj  - we added the System.Net.Mail
             MailMessage msg = new MailMessage
