@@ -126,6 +126,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\ContactViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -376,6 +377,7 @@
     <Content Include="Content\Scripts\umd\popper.min.js.map" />
     <Content Include="Views\Home\Classmates.cshtml" />
     <Content Include="Views\Home\Portfolio.cshtml" />
+    <Content Include="Views\Home\EmailConfirmation.cshtml" />
     <None Include="_archive\Scripts\jquery-3.0.0-vsdoc.js" />
     <Content Include="_archive\Scripts\jquery-3.0.0.js" />
     <Content Include="_archive\Scripts\jquery-3.0.0.min.js" />
@@ -527,7 +529,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Models\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
