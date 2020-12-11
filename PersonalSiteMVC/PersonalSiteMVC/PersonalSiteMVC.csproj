@@ -167,7 +167,10 @@
     <Content Include="Content\images\favicon\favicon-32x32.png" />
     <Content Include="Content\images\favicon\favicon.ico" />
     <Content Include="Content\images\FSEducation.jpg" />
-    <Content Include="Content\images\John.jpg" />
+    <Content Include="Content\images\IsaacBeck.jpg" />
+    <Content Include="Content\images\Spencer.jpg" />
+    <Content Include="Content\images\JSwift.png" />
+    <Content Include="Content\images\MBell.jpg" />
     <Content Include="Content\images\pic01.jpg" />
     <Content Include="Content\images\pic02.jpg" />
     <Content Include="Content\images\pic03.jpg" />

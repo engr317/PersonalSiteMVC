@@ -1,4 +1,100 @@
-﻿/* Classmates */
+﻿/* Global CSS */
+#header h1 {
+    color: darkorange;
+    font-weight: bold;
+    text-shadow: 2px 2px #1F2226;
+}
+
+nav {
+    text-transform: uppercase;
+    font-size: 1em;
+}
+
+    nav ul li {
+        padding: .5em;
+        font-size: 1.75em;
+        color: floralwhite;
+        text-shadow: 2px 2px #1F2226;
+    }
+
+h2#name {
+    color: darkorange;
+    font-weight: bold;
+    text-shadow: 4px 4px #1F2226;
+}
+
+#banner p {
+    color: darkorange;
+    font-weight: bold;
+    text-shadow: 2px 2px #1F2226;
+}
+
+#banner .button {
+    font-family: Arial;
+    text-transform: uppercase;
+    font-size: 2em;
+    width: 240px;
+    height: 60px;
+    border-radius: 80px;
+    line-height: 1em;
+    text-align: center;
+    border: 3px solid #1F2226;
+    display: block;
+    text-decoration: none;
+    margin: 10px auto;
+    color: darkorange;
+    position: relative;
+    overflow: hidden;
+    background: transparent;
+    transition: .3s;
+    padding: .5em 0 1em 0;
+}
+
+    #banner .button:before {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: #1F2226;
+        /*opacity: .5;*/
+        top: 0;
+        left: 0;
+        z-index: -1;
+        transition: .5s;
+    }
+
+    #banner .button:after {
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: #D3D3D3;
+        top: -100%;
+        left: 0;
+        z-index: -1;
+        transition: .5s;
+        transition-delay: .5s;
+    }
+
+    #banner .button:hover {
+        color: #fff;
+        text-decoration: none;
+    }
+
+        #banner .button:hover:before {
+            top: 0;
+        }
+
+        #banner .button:hover:after {
+            top: 0;
+        }
+
+#footer {
+    background-color: #444444;
+    max-height: 2em;
+}
+
+/* Classmates */
 #classmates main {
     border-radius: 20px;
     background-color: white;
@@ -33,22 +129,22 @@
     height: 290px;
 }
 
-/* Contact */     
+/* Contact */
 
-    #contact p, ul {
-        font-family: 'Sanchez', serif;
-        font-size: 12px;
-        letter-spacing: 1px;
-    }         
+#contact p, ul {
+    font-family: 'Sanchez', serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
 
-    #contact h2 {
-        text-transform: uppercase;
-        font-size: 0.9em;
-        font-weight: bold;
-        font-family: 'Montserrat', serif;
-        letter-spacing: 2px;
-    }     
-      
+#contact h2 {
+    text-transform: uppercase;
+    font-size: 0.9em;
+    font-weight: bold;
+    font-family: 'Montserrat', serif;
+    letter-spacing: 2px;
+}
+
 
 /* Portfolio */
 #portfolio main {
@@ -60,7 +156,6 @@
     text-align: center;
     font-weight: bold;
     font-size: 2em;
-    
 }
 
 #portfolio intro {
@@ -68,8 +163,9 @@
     text-align: center;
     font-size: large;
 }
-#portfolio .row{
-    padding:2px;
+
+#portfolio .row {
+    padding: 2px;
 }
 
 
@@ -79,7 +175,6 @@
     padding: 5px;
     text-align: center;
     background-color: #005;
-    
 }
 
 #portfolio .card-title {
@@ -122,7 +217,6 @@
 #resume page-wrap {
     width: 800px;
     margin: 40px auto 60px;
-    
 }
 
 #resume pic {
@@ -137,7 +231,7 @@
     font-weight: bold;
     letter-spacing: -2px;
     border-bottom: 1px solid #999;
-    text-align:left;
+    text-align: left;
 }
 
 #resume h2 {
@@ -201,8 +295,8 @@
 
 #resume dd {
     width: 600px;
-    float:right;
-    text-align:left;
+    float: right;
+    text-align: left;
 }
 
     #resume dd.clear {
@@ -210,8 +304,3 @@
         margin: 0;
         height: 15px;
     }
-
-#footer {
-    background-color: #444444;
-    max-height: 2em;
-}
