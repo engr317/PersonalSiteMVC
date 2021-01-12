@@ -158,6 +158,7 @@
     <Content Include="Content\images\anastasia-myer-under-construction1.jpg" />
     <Content Include="Content\images\banner.jpg" />
     <Content Include="Content\images\dave-goudreau-n_oeImTH0qQ-unsplash.jpg" />
+    <Content Include="Content\images\Dungeon.JPG" />
     <Content Include="Content\images\favicon.ico" />
     <Content Include="Content\images\favicon.png" />
     <Content Include="Content\images\favicon\android-chrome-192x192.png" />
@@ -167,6 +168,7 @@
     <Content Include="Content\images\favicon\favicon-32x32.png" />
     <Content Include="Content\images\favicon\favicon.ico" />
     <Content Include="Content\images\FSEducation.jpg" />
+    <Content Include="Content\images\happyTime.JPG" />
     <Content Include="Content\images\IsaacBeck.jpg" />
     <Content Include="Content\images\Spencer.jpg" />
     <Content Include="Content\images\JSwift.png" />
